@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Encriptador de codigo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="pagina">
+        <section class="ingreso">
+            <img src="imagenes/logo.png" id="logo">
+            <textarea id="palabra" placeholder="Ingrese el texto aqui" name="ingresoPalabra" cols="30" rows="10"></textarea>
+            <div id="informativo">
+                <img src="imagenes/alert.png" id="alert">
+                <p class="notificacion">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div id="botones">
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="salida">
+            <div id="insalida">
+            <img src="imagenes/Muñeco.png" id="muneco">
+            <textarea name="areaTexto" id="mensajes" cols="30" rows="10" style="outline:transparent"></textarea>
+            <div id="avisos">
+            <p id="aviso1">Ningún mensaje fue encontrado</p>
+            <p id="aviso2"> Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <p id="vocalesCambio"></p>
+            <button id="copiar">Copiar</button>
+             </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div>
+        <a href="https://www.youtube.com/c/BetaPresenta?sub_confirmation=1" ><img src="imagenes/footer.png" id="beta"></a>
+        <p>Copyright ©</p>
+    </div>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
